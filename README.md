@@ -1,5 +1,5 @@
 # ObjectRecognition7animals
-[토이 프로젝트] 7종 야생동물 (노루, 고라니, 족제비, 너구리, 다람쥐, 청솔모, 고양이) 인식 모델
+[토이 프로젝트] 7종 야생동물 (노루, 고라니, 족제비, 너구리, 다람쥐, 청솔모, 고양이) 검출(Classification) 모델
 
 ### 데이터셋(Dataset)
 https://aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=645
