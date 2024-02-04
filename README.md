@@ -14,6 +14,6 @@ ResNet-18
 ### 데이터셋(Dataset)
 https://www.kaggle.com/datasets/chetankv/dogs-cats-images (Cats and Dogs)
 https://www.kaggle.com/datasets/alessiocorrado99/animals10 (Other animals)
-<br>
-Training 800 images per species
+<br><br>
+Training 800 images per species<br>
 Testing 200 images per species
