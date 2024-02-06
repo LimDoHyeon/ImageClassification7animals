@@ -14,5 +14,5 @@ lr = 0.0001
 
 --- Opinion ---
 Even accuracy of third model is 93%, still can't distinguish between horse and dog.
-I think it is originated from data unbalance.
+I think it originated from data unbalance.
 If I(or maybe someone) want to improve 'real accuracy' of this model in the future, Adding data will be needed.
