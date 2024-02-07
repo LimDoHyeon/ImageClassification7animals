@@ -9,7 +9,8 @@ lr = 0.01
 [conclusion : 0.01 of Learning Rate is inappropriate. Back to 0.001 of lr]
 
 lr = 0.0001
-20 epoch with gpu : acc 93.07%   |  F1 0.9306  | Most Accurate mdoel  | modelv3_acc93
+20 epoch with gpu : acc 93.07%  |  F1 0.9306  | Most Accurate mdoel  | modelv3_acc93
+40 epoch with gpu : acc 93.36%  |  F1 0.9335  | wasn't saved (Didn't changed dramatically)
 
 
 --- Opinion ---
