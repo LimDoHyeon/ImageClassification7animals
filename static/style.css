@@ -1,0 +1,40 @@
+* {
+    align-items: center;
+    text-align: center;
+}
+
+
+.headerAnimals {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.headerAnimalList {
+    width: 200px; /* 이미지의 너비를 200px로 고정 */
+    height: 200px; /* 이미지의 높이를 200px로 고정 */
+    margin-right: 20px; /* 이미지 사이에 간격을 추가 */
+    animation: slide 20s infinite linear;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-200px * 7)); /* 이미지 개수 * 너비(여기서는 7개 이미지) */
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 방향 중앙 정렬 */
+    justify-content: center; /* 수평 방향 중앙 정렬 */
+    min-height: 100vh; /* 최소 높이를 뷰포트의 100%로 설정 */
+}
+
+
+.mainImageInput {
+    display: none; /* 파일 입력 필드를 숨깁니다 */
+}
