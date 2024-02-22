@@ -1,0 +1,19 @@
+lr = 0.001
+5 epoch without gpu : acc 72  |  modelv1_acc72
+25 epoch with gpu : acc 82  |  wasn't saved
+20 epoch with gpu : acc 82.5  | F1 0.8259  |  modelv2_acc82
+
+lr = 0.01
+20 epoch with gpu : acc 63.93  |  wasn't saved, but loss is drastically diminished. So try again with epoch 35
+35 epoch with gpu : acc 66.29
+[conclusion : 0.01 of Learning Rate is inappropriate. Back to 0.001 of lr]
+
+lr = 0.0001
+20 epoch with gpu : acc 93.07%  |  F1 0.9306  | Most Accurate mdoel  | modelv3_acc93
+40 epoch with gpu : acc 93.36%  |  F1 0.9335  | wasn't saved (Didn't changed dramatically)
+
+
+--- Opinion ---
+Even accuracy of third model is 93%, still can't distinguish between horse and dog.
+I think it originated from data unbalance.
+If I(or maybe someone) want to improve 'real accuracy' of this model in the future, Adding data will be needed.
